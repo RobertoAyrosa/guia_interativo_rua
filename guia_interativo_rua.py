@@ -277,7 +277,7 @@ with tabs[4]:
 * *Pode usar o endereço do Centro Pop como comprovante de residência.*
         """)
         
-    with st.expander("🚌 Passagem de Graça para Volta para Casa"):
+    with st.expander("🚌 Passagem de Graça para Voltar para Casa"):
         st.markdown("""
 **Como funciona:** Se você deseja voltar para seu estado ou cidade de origem, e possui familiares ou apoios esperando por você lá, o governo do DF pode pagar a sua **passagem interestadual de ônibus**.
 
