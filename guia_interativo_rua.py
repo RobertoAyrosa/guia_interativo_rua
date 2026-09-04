@@ -260,7 +260,7 @@ with tabs[4]:
 **O que ensina:** Construção civil e jardinagem (com consertos de praças públicas).
 
 **Benefícios:**
-* Bolsa de **1 salário mínimo por mês (R$ 1.412,00)**
+* Bolsa de **1 salário mínimo nacional por mês**
 * Auxílio-transporte e lanche diário
 * Diploma e kit estudante completo (uniforme, botas e equipamentos)
 * **Vagas exclusivas reservadas para quem está na rua.**
