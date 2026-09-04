@@ -79,7 +79,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- CABEÇALHO DO APP ---\nst.write("### 📱 GUIA DE APOIO DE BOLSO")
+# --- CABEÇALHO DO APP ---
+st.write("### 📱 GUIA DE APOIO DE BOLSO")
 st.title("Serviços do GDF para Pessoas em Situação de Rua")
 
 # Selo de Garantia Legal (Lei 7.923/2026)
@@ -255,31 +256,33 @@ with tabs[4]:
     
     # Accordion interativo de Programas
     with st.expander("🛠️ RENOVA DF (Curso prático de 3 meses)"):
-        st.markdown(
-            "**O que ensina:** Construção civil e jardinagem (com consertos de praças públicas).\\n\\n"
-            "**Benefícios:**\\n"
-            "* Bolsa de **1 salário mínimo por mês (R$ 1.412,00)**\\n"
-            "* Auxílio-transporte e lanche diário\\n"
-            "* Diploma e kit estudante completo (uniforme, botas e equipamentos)\\n"
-            "* **Vagas exclusivas reservadas para quem está na rua.**"
-        )
+        st.markdown("""
+**O que ensina:** Construção civil e jardinagem (com consertos de praças públicas).
+
+**Benefícios:**
+* Bolsa de **1 salário mínimo por mês (R$ 1.412,00)**
+* Auxílio-transporte e lanche diário
+* Diploma e kit estudante completo (uniforme, botas e equipamentos)
+* **Vagas exclusivas reservadas para quem está na rua.**
+        """)
         
     with st.expander("🎓 QUALIFICA DF (50 cursos profissionais rápidos)"):
-        st.markdown(
-            "**Cursos como:** Auxiliar administrativo, eletricista, mecânica de motos, manicure, maquiagem e cuidador de idosos.\\n\\n"
-            "**Benefícios:**\\n"
-            "* Vale-transporte de graça e lanches diários\\n"
-            "* Uniforme e material de estudo completo\\n"
-            "* Diploma reconhecido.\\n"
-            "* *Pode usar o endereço do Centro Pop como comprovante de residência.*"
-        )
+        st.markdown("""
+**Cursos como:** Auxiliar administrativo, eletricista, mecânica de motos, manicure, maquiagem e cuidador de idosos.
+
+**Benefícios:**
+* Vale-transporte de graça e lanches diários
+* Uniforme e material de estudo completo
+* Diploma reconhecido.
+* *Pode usar o endereço do Centro Pop como comprovante de residência.*
+        """)
         
     with st.expander("🚌 Passagem de Graça para Volta para Casa"):
-        st.markdown(
-            "**Como funciona:** Se você deseja voltar para seu estado ou cidade de origem, e possui familiares ou apoios "
-            "esperando por você lá, o governo do DF pode pagar a sua **passagem interestadual de ônibus**.\\n\\n"
-            "**Onde solicitar:** Procure a assistência social do Centro Pop ou do CREAS para que eles comprovem a rede de apoio e emitam a passagem."
-        )
+        st.markdown("""
+**Como funciona:** Se você deseja voltar para seu estado ou cidade de origem, e possui familiares ou apoios esperando por você lá, o governo do DF pode pagar a sua **passagem interestadual de ônibus**.
+
+**Onde solicitar:** Procure a assistência social do Centro Pop ou do CREAS para que eles comprovem a rede de apoio e emitam a passagem.
+        """)
 
 # --- ABA 6: PROTOCOLOS & CONTATOS ---
 with tabs[5]:
